@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(94, 87, 87);
+    align-items: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"],
+  .button {
+    background-color: #a7e50a;
+    color: rgb(25, 25, 25);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 10px 15px 10px rgb(244, 4, 4);
+  }
+
+  input[type="submit"]:hover,
+  .button:hover {
+    background-color: #d92505;
+    color: white;
+    box-shadow: 10px 15px 10px rgb(4, 248, 53);
+  }
+
+  header {
+    background-image: linear-gradient(to bottom right, #0c1cf7, #e30404);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 110px;
+  }
+
+  footer {
+    background-image: linear-gradient(to top left, #0c1cf7, #e30404);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+  }
+  .form {
+    background-image: linear-gradient(to bottom right, #0c1cf7, #e30404);
+    color: black;
+    box-shadow: 10px 2px 7px rgb(244, 4, 4);
+    height: 500px;
+  }
+
+  .form:hover {
+    background-image: linear-gradient(to top left, #0c1cf7, #e30404);
+    color: white;
+    box-shadow: 10px 15px 10px rgb(4, 248, 53);
+  }
